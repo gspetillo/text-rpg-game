@@ -52,4 +52,3 @@ playButton.onclick = () => {
 }
 
 playMusic();
-playMusic();
