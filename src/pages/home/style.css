@@ -79,7 +79,7 @@ a {
 }
 
 #game *{
-  margin: 1vw 1vw;
+  margin: 0 1vw;
 }
 
 #image {
@@ -112,6 +112,7 @@ a {
   justify-content: flex-start;
   height: 30vw;
   width: 50vw;
+  margin: 1vw;
   padding: 2vw;
   background-image: url("https://img.freepik.com/premium-vector/old-paper-texture-background_108964-98.jpg?w=2000");
   background-size: cover;
