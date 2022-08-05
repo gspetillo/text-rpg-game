@@ -184,6 +184,7 @@ a {
   font-size: 2vw;
   padding: 0.75vw 1vw;
   min-width: 10vw;
+  text-shadow: 2px 2px 2px #00000090;
 }
 
 .gameOption:hover {
