@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap");
+
+:root {
+  --main-title-color: #ffa600;
+  --secondary-title-color: #ffdf29;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Press Start 2P", cursive;
+  user-select: none;
+}
+
+body {
+  background-image: url("../../assets/image/background-image.jpg");
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#fullscreenButton {
+  position: fixed;
+  bottom: 1.5vw;
+  right: 1.5vw;
+  background-color: #fff;
+  border-radius: 50%;
+  min-width: 50px;
+  min-height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  opacity: 0.5;
+  border: none;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+  margin-bottom: 1vw;
+}
+
+#header img {
+  width: 7vw;
+}
+
+#header h1 {
+  margin: 2vw 0 0.5vw;
+}
+
+#header h1 p {
+  font-size: 0.8vw;
+  color: var(--main-title-color);
+  text-align: center;
+  margin-top: 5px;
+  text-shadow: 10px 10px 10px #00000050;
+  line-height: 1;
+}
+
+#header h1 p:first-child {
+  font-size: 3.5vw;
+  color: var(--secondary-title-color);
+}
+
+#game {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+#game *{
+  margin: 1vw 1vw;
+}
+
+#image {
+  width: 30vw;
+  height: 30vw;
+  background-image: url("https://media.istockphoto.com/vectors/red-vintage-background-royal-with-classic-baroque-pattern-vector-id1043752586?k=20&m=1043752586&s=170667a&w=0&h=KpTHiaa0HL5GVvU8LjW8TRtwUJkz3OL3jaRMO50ALJ4=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1vw;
+  border: 3px solid #ff000090;
+}
+
+#image img {
+  height: 90%;
+  max-width: 90%;
+  max-height: 90%;
+  opacity: 0.75;
+  /* border: 1px solid #fff; */
+}
+
+#hud {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 30vw;
+  width: 50vw;
+  padding: 2vw;
+  background-image: url("https://img.freepik.com/premium-vector/old-paper-texture-background_108964-98.jpg?w=2000");
+  background-size: cover;
+  border-radius: 1vw;
+  border: 3px solid #ffd00090;
+}
+
+#stats {
+  display: flex;
+  flex-direction: row;
+  margin: 2vw 0;
+  font-size: 1.75vw;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #000;
+  text-shadow: 0 0 20px #ffffff90;
+}
+
+#hp{
+    color: #23bb23;
+}
+
+#xp{
+    color: var(--main-title-color);
+}
+
+#hud h2 {
+  font-family: "Caveat", cursive;
+  font-size: 2.5vw;
+  font-weight: bold;
+  color: #70410b;
+}
+
+#options {
+  display: flex;
+  margin: 1vw 0;
+}
+
+.gameOption {
+  font-family: "Caveat", cursive;
+  font-weight: bold;
+  background-color: #70410b;
+  color: #fff;
+  border: none;
+  border-radius: 0.5vw;
+  box-shadow: 0px 0px 10px #00000050;
+  font-size: 2vw;
+  padding: 0.75vw 1vw;
+}
+
+.gameOption:hover {
+  cursor: pointer;
+  background-color: #9c6322;
+}
+
+@media screen and (max-width: 1024px) {
+  #image {
+    width: 50vw;
+  }
+  #game {
+    flex-direction: column;
+  }
+  #hud {
+    height: 50vw;
+  }
+}
