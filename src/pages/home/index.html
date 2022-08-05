@@ -36,9 +36,20 @@
   <body>
     <main>
       <div id="app">
-        <button id="fullscreenButton">
-          <span class="material-symbols-sharp"> fullscreen </span>
-        </button>
+        <audio id="medievalMusic" loop>
+          <source
+            src="../../assets/music/medieval-instrumental.mp3"
+            type="audio/mpeg"
+          />
+        </audio>
+        <span id="controlButtons">
+          <button id="playButton">
+            <span id="playIcon" class="material-symbols-sharp"> play_arrow </span>
+          </button>
+          <button id="fullscreenButton">
+            <span class="material-symbols-sharp"> fullscreen </span>
+          </button>
+        </span>
         <div
           id="header"
           class="animate__animated animate__fadeIn animate__delay-1s"
