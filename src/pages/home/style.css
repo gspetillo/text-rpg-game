@@ -46,6 +46,7 @@ a {
 #controlButtons button {
   opacity: 0.5;
   margin: 1vw;
+  padding: 3px;
 }
 
 #controlButtons button:hover {

@@ -38,11 +38,11 @@ fullscreenButton.onclick = () => {
 const playMusic = () => {
     let buttonIcon = document.getElementById("playIcon")
     let audio = document.getElementById("medievalMusic");
-    if (buttonIcon.innerHTML === "play_arrow") {
+    if (buttonIcon.innerHTML === "music_note") {
         buttonIcon.innerHTML = 'pause'
         audio.play();
     } else {
-        buttonIcon.innerHTML = 'play_arrow'
+        buttonIcon.innerHTML = 'music_note'
         audio.pause();
     }
 }
