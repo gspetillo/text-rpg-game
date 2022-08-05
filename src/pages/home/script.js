@@ -1,11 +1,65 @@
-/* Get the documentElement (<html>) to display the page in fullscreen */
 var elem = document.documentElement;
-var fullscreenButton = document.getElementById('fullscreenButton');
-var playButton = document.getElementById("playButton");
+var fullscreenButton = document.querySelector('#fullscreenButton');
+var playButton = document.querySelector("#playButton");
+var questText = document.querySelector("#hud h2");
+var options = document.querySelector("#options");
+var gameOptions = document.querySelectorAll(".gameOption");
 var isFullscreen = false;
 
+var actions = {
+    start: {
+        type: "start",
+        text: "Seja bem vindo ao RPG,<br>o Reino do Pato Guerreiro.<br>Aventure-se nesse mundo cheio de desafios!",
+        options: [
+            {
+                text: "Jogar",
+                nextAction: "begin"
+            },
+        ]
+    },
+    begin: {
+        type: "begin",
+        text: "Você acorda perdido em uma estrada, sem saber onde está. Você só lembra que seu nome é Duque,<br>mas não sabe o que fazer. Ao longe há uma floresta em um castelo...",
+        options: [
+            {
+                text: "Ir para o castelo",
+                nextAction: "castle"
+            },
+            {
+                text: "Ir para a floresta",
+                nextAction: "forest"
+            },
+        ]
+    },
+    error: {
+        type: "error",
+        text: "Ocorreu um erro. Reinicie o jogo.",
+        options: [
+            {
+                text: "Reiniciar",
+                nextAction: "start"
+            },
+        ]
+    }
+}
+
+const renderGameScreen = (actionName) => {
+    let action = actionName in actions ? actions[actionName] : actions.error;
+    questText.innerHTML = action.text;
+    options.innerHTML = '';
+    for(let option in action.options) {
+        options.innerHTML += `
+            <button 
+            id="${action.options[option].nextAction in actions ? action.options[option].nextAction : `error`}"
+            class="gameOption" 
+            onclick="renderGameScreen('${action.options[option].nextAction in actions ? action.options[option].nextAction : `error`}')"
+            >${action.options[option].text}</button>
+        `
+    }
+}
+
 /* View in fullscreen */
-function openFullscreen() {
+const openFullscreen = () => {
     if (elem.requestFullscreen) {
         elem.requestFullscreen();
     } else if (elem.webkitRequestFullscreen) { /* Safari */
@@ -16,7 +70,7 @@ function openFullscreen() {
 }
 
 /* Close fullscreen */
-function closeFullscreen() {
+const closeFullscreen = () => {
     if (document.exitFullscreen) {
         document.exitFullscreen();
     } else if (document.webkitExitFullscreen) { /* Safari */
@@ -26,6 +80,7 @@ function closeFullscreen() {
     }
 }
 
+/* Fullscreen button onclick function */
 fullscreenButton.onclick = () => {
     if (isFullscreen) {
         closeFullscreen();
@@ -35,6 +90,7 @@ fullscreenButton.onclick = () => {
     isFullscreen = !isFullscreen;
 }
 
+/* Play music */
 const playMusic = () => {
     let buttonIcon = document.getElementById("playIcon")
     let audio = document.getElementById("medievalMusic");
@@ -52,3 +108,4 @@ playButton.onclick = () => {
 }
 
 playMusic();
+renderGameScreen("start");
