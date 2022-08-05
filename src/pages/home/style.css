@@ -26,18 +26,19 @@ a {
 
 #fullscreenButton {
   position: fixed;
-  bottom: 1.5vw;
-  right: 1.5vw;
+  bottom: 5vw;
+  right: 3vw;
   background-color: #fff;
   border-radius: 50%;
-  min-width: 50px;
-  min-height: 50px;
+  min-width: 30px;
+  min-height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;
   opacity: 0.5;
   border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 #header {
@@ -78,8 +79,9 @@ a {
   height: 100%;
 }
 
-#game *{
-  margin: 0 1vw;
+#game * {
+  margin-left: 1vw;
+  margin-right: 1vw;
 }
 
 #image {
@@ -130,12 +132,12 @@ a {
   text-shadow: 0 0 20px #ffffff90;
 }
 
-#hp{
-    color: #23bb23;
+#hp {
+  color: #23bb23;
 }
 
-#xp{
-    color: var(--main-title-color);
+#xp {
+  color: var(--main-title-color);
 }
 
 #hud h2 {
@@ -168,13 +170,118 @@ a {
 }
 
 @media screen and (max-width: 1024px) {
-  #image {
-    width: 50vw;
+    #header img {
+      width: 15vw;
+    }
+  
+    #header h1 {
+      margin: 2vw 0 0.5vw;
+    }
+  
+    #header h1 p {
+      font-size: 1.5vw;
+      color: var(--main-title-color);
+      text-align: center;
+      margin-top: 5px;
+      text-shadow: 10px 10px 10px #00000050;
+      line-height: 1;
+    }
+  
+    #header h1 p:first-child {
+      font-size: 3vw;
+      color: var(--secondary-title-color);
+    }
+  
+    #image {
+      width: 50vw;
+      height: 40vw;
+    }
+  
+    #game {
+      flex-direction: column;
+    }
+  
+    #stats {
+      font-size: 2.5vw;
+      margin-bottom: 5vw;
+    }
+  
+    #hud {
+      width: 50vw;
+      height: 55vw;
+    }
+  
+    #hud h2 {
+      font-size: 3vw;
+    }
+  
+    #options {
+      margin-top: 7vw;
+      flex-direction: column;
+    }
+  
+    .gameOption {
+      font-size: 3vw;
+      margin: 0.5vw 0;
+      min-width: 30vw;
+    }
   }
+  
+
+@media screen and (max-width: 580px) {
+  #header img {
+    width: 20vw;
+  }
+
+  #header h1 {
+    margin: 2vw 0 0.5vw;
+  }
+
+  #header h1 p {
+    font-size: 2vw;
+    color: var(--main-title-color);
+    text-align: center;
+    margin-top: 5px;
+    text-shadow: 10px 10px 10px #00000050;
+    line-height: 1;
+  }
+
+  #header h1 p:first-child {
+    font-size: 5vw;
+    color: var(--secondary-title-color);
+  }
+
+  #image {
+    width: 75vw;
+    height: 50vw;
+  }
+
   #game {
     flex-direction: column;
   }
+
+  #stats {
+    font-size: 3vw;
+    margin-bottom: 5vw;
+  }
+
   #hud {
-    height: 50vw;
+    width: 75vw;
+    height: 90vw;
+  }
+
+  #hud h2 {
+    font-size: 5vw;
+  }
+
+  #options {
+    margin-top: 7vw;
+    flex-direction: column;
+  }
+
+  .gameOption {
+    font-size: 5vw;
+    margin: 0.5vw 0;
+    min-width: 50vw;
   }
 }
