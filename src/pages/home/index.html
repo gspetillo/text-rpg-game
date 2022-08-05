@@ -28,6 +28,10 @@
       href="../../assets/image/favicon/android-chrome-192x192.png"
     />
     <link rel="manifest" href="../../assets/image/favicon/site.webmanifest" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
   </head>
   <body>
     <main>
@@ -35,44 +39,68 @@
         <button id="fullscreenButton">
           <span class="material-symbols-sharp"> fullscreen </span>
         </button>
-        <div id="header">
+        <div
+          id="header"
+          class="animate__animated animate__fadeIn animate__delay-1s"
+        >
           <img
+            class="animate__animated animate__infinite animate__pulse"
             src="../../assets/image/favicon/android-chrome-512x512.png"
             alt=""
           />
-          <h1>
+          <h1 class="animate__animated animate__fadeIn animate__delay-1s">
             <p>RPG</p>
             <p>Reino do Pato</p>
             <p>Guerreiro</p>
           </h1>
         </div>
         <div id="game">
-          <div id="image">
-            <img src="https://i.gifer.com/XOsX.gif" alt="" />
+          <div
+            id="image"
+            class="animate__animated animate__fadeIn animate__delay-1s"
+          >
+            <img
+              src="https://i.gifer.com/XOsX.gif"
+              alt=""
+              class="animate__animated animate__fadeIn animate__delay-2s"
+            />
           </div>
-          <div id="hud">
-            <div id="stats">
+          <div
+            id="hud"
+            class="animate__animated animate__fadeIn animate__delay-1s"
+          >
+            <div
+              id="stats"
+              class="animate__animated animate__fadeIn animate__delay-2s"
+            >
               <div id="hp">
-                <p>
+                <p
+                  class="animate__animated animate__infinite animate__pulse animate__pulse"
+                >
                   <span class="material-symbols-sharp"> shield_with_heart </span
                   >100
                 </p>
               </div>
               <div id="xp">
-                <p>
+                <p
+                  class="animate__animated animate__infinite animate__pulse animate__pulse"
+                >
                   <span class="material-symbols-sharp"> star </span
                   >100
                 </p>
               </div>
             </div>
-            <h2>
+            <h2 class="animate__animated animate__fadeIn animate__delay-3s">
               Era uma vez, um pato guerreiro chamado Duque, que seguia sua
               missão de combater o malvado e poderoso...
             </h2>
-            <div id="options">
+            <div
+              id="options"
+              class="animate__animated animate__fadeIn animate__delay-4s"
+            >
               <button class="gameOption">Opção</button>
               <button class="gameOption">Opção</button>
-              <button id="btn" class="gameOption">Opção</button>
+              <button class="gameOption">Opção</button>
             </div>
           </div>
         </div>
