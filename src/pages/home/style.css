@@ -108,7 +108,8 @@ a {
   align-items: center;
   justify-content: center;
   border-radius: 1vw;
-  border: 3px solid #ff000090;
+  border: 0.5vw solid #ff000090;
+  box-shadow: 10px 10px 10px #00000090;
 }
 
 #image img {
@@ -116,10 +117,10 @@ a {
   max-width: 90%;
   max-height: 90%;
   opacity: 0.75;
-  /* border: 1px solid #fff; */
 }
 
 #hud {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -131,7 +132,8 @@ a {
   background-image: url("https://img.freepik.com/premium-vector/old-paper-texture-background_108964-98.jpg?w=2000");
   background-size: cover;
   border-radius: 1vw;
-  border: 3px solid #ffd00090;
+  border: 0.5vw solid #ffd00090;
+  box-shadow: 10px 10px 10px #00000090;
 }
 
 #stats {
@@ -146,10 +148,12 @@ a {
 
 #hp {
   color: #23bb23;
+  text-shadow: 1px 1px 1px #00000090;
 }
 
 #xp {
   color: var(--main-title-color);
+  text-shadow: 1px 1px 1px #00000090;
 }
 
 #hud h2 {
@@ -160,6 +164,8 @@ a {
 }
 
 #options {
+  position: absolute;
+  bottom: 2vw;
   display: flex;
   margin: 1vw 0;
 }
@@ -167,21 +173,30 @@ a {
 .gameOption {
   font-family: "Caveat", cursive;
   font-weight: bold;
-  background-color: #70410b;
+  /* background-color: #70410b; */
+  background-image: url("https://w7.pngwing.com/pngs/409/684/png-transparent-brown-wood-illustration-hearthstone-texture-mapping-3d-computer-graphics-animation-chocolate-background-texture-game-3d-computer-graphics-thumbnail.png");
+  background-size: cover;
+  background-position: center;
   color: #fff;
   border: none;
   border-radius: 0.5vw;
-  box-shadow: 0px 0px 10px #00000050;
+  box-shadow: 0 5px 20px #00000080;
   font-size: 2vw;
   padding: 0.75vw 1vw;
+  min-width: 10vw;
 }
 
 .gameOption:hover {
   cursor: pointer;
-  background-color: #9c6322;
+  opacity: 0.9;
+  scale: 1.1;
 }
 
 @media screen and (max-width: 1024px) {
+  #header {
+    margin-bottom: 3vw;
+  }
+
   #header img {
     width: 15vw;
   }
@@ -288,6 +303,7 @@ a {
   #options {
     margin-top: 7vw;
     flex-direction: column;
+    bottom: 8vw;
   }
 
   .gameOption {
