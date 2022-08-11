@@ -1,0 +1,7 @@
+main:
+  - title: "Scope"
+    url: /scope/
+  - title: "Architecture"
+    url: /architecture/
+  - title: "Management"
+    url: /management/
