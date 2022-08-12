@@ -27,6 +27,13 @@ Project to develop a text RPG game based on agile methodologies
 
 3. Ready! Use the app, play and contribute!
 
+##  Prototype
+### Figma em 580X350px 
+<a href="https://www.figma.com/proto/6z8UWvzRqJw1jrD3giArUx/Flow?node-id=13%3A20&scaling=min-zoom&page-id=0%3A1">https://www.figma.com/proto/6z8UWvzRqJw1jrD3giArUx/Flow?node-id=13%3A20&scaling=min-zoom&page-id=0%3A1</a>
+
+### Figma em 1920X1080px
+<a href="hhttps://www.figma.com/proto/6z8UWvzRqJw1jrD3giArUx/Flow?node-id=112%3A366&scaling=contain&page-id=112%3A231">https://www.figma.com/proto/6z8UWvzRqJw1jrD3giArUx/Flow?node-id=112%3A366&scaling=contain&page-id=112%3A231</a>
+
 ## 🤝🏻 Contributing
 
 1. Clone the Github Repo
