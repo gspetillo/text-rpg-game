@@ -3,6 +3,9 @@ permalink: /scope/
 title: "Scope"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+# Eider Game
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+O Eider Game é um jogo de RPG de Texto concebido como forma de revitalizar e relembrar um estilo classico de jogo muito comum na época do MS-DOS esse tipo de jogo antecedeu os jogos de apontar e clicar, A ideia é extremamente simples apresentamos ao jogador um contexto sobre o universo em que o jogo está inserido, e então damos uma narrativa que é controlada pelo jogador. A cada opção selecionada pelo jogador, a história é direcionada para um caminho específico, no final resultando em múltiplas possibilidades de finais. Para tal,utilizamos de novas tecnologias como Typscript,Html e Css. O jogador de beneficia de interfaces concisas e um ambiente simples para poder jogar.
+
+ ## 🌐 Website
+<a href="https://whatsappnumber.vercel.app/">https://reinodopatoguerreiro.vercel.app/pages/home/index.html</a> 
