@@ -1,4 +1,11 @@
-# Text RPG Game
+---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+title: Text RPG Game
+layout: home
+author_profile: true
+---
 
 <!-- ### 🌐 Website
 
@@ -19,6 +26,13 @@ Project to develop a text RPG game based on agile methodologies
 2. Open the `src/pages/home/index.html` file
 
 3. Ready! Use the app, play and contribute!
+
+##  Prototype
+### Figma em 580X350px 
+<a href="https://www.figma.com/proto/6z8UWvzRqJw1jrD3giArUx/Flow?node-id=13%3A20&scaling=min-zoom&page-id=0%3A1">https://www.figma.com/proto/6z8UWvzRqJw1jrD3giArUx/Flow?node-id=13%3A20&scaling=min-zoom&page-id=0%3A1</a>
+
+### Figma em 1920X1080px
+<a href="hhttps://www.figma.com/proto/6z8UWvzRqJw1jrD3giArUx/Flow?node-id=112%3A366&scaling=contain&page-id=112%3A231">https://www.figma.com/proto/6z8UWvzRqJw1jrD3giArUx/Flow?node-id=112%3A366&scaling=contain&page-id=112%3A231</a>
 
 ## 🤝🏻 Contributing
 
@@ -57,19 +71,23 @@ Project to develop a text RPG game based on agile methodologies
 
 <div style="display: flex; width: 1000px">
     <a href="https://www.linkedin.com/in/gspetillo/" style="margin: 10px;">
-      <img src="https://avatars.githubusercontent.com/u/56941612?v=4" alt="Felipe Borsato 🎖️" width="100px"/>
+      <img src="https://icon-library.com/images/default-user-icon/default-user-icon-4.jpg" alt="Gabriel Petillo" width="100px"/>
       <p style="width: 110px; text-align: center; font-size: 12px; font-weight: bold">Felipe Borsato 🎖️</p>
    </a>
    <a href="https://www.linkedin.com/in/gspetillo/" style="margin: 10px;">
-      <img src="https://avatars.githubusercontent.com/u/32914162?v=4" alt="Gabriel Petillo 🎖️" width="100px"/>
+      <img src="https://icon-library.com/images/default-user-icon/default-user-icon-4.jpg" alt="Gabriel Petillo" width="100px"/>
+      <p style="width: 110px; text-align: center; font-size: 12px; font-weight: bold">Izaque Sena 🎖️</p>
+   </a>
+   <a href="https://www.linkedin.com/in/gspetillo/" style="margin: 10px;">
+      <img src="https://media-exp1.licdn.com/dms/image/C4D03AQG0nF7BqQzPKw/profile-displayphoto-shrink_800_800/0/1582063529353?e=1665014400&v=beta&t=CDWZxFElj3GJEfQ6NMIQl1umxW6-erTtFoIBuE2XB-0" alt="Gabriel Petillo" width="100px"/>
       <p style="width: 100px; text-align: center; font-size: 12px; font-weight: bold">Gabriel Petillo 🎖️</p>
    </a>
    <a href="https://www.linkedin.com/in/gspetillo/" style="margin: 10px;">
-      <img src="https://avatars.githubusercontent.com/u/63256252?v=4" alt="Lucas Meira 🎖️" width="100px"/>
+      <img src="https://icon-library.com/images/default-user-icon/default-user-icon-4.jpg" alt="Gabriel Petillo" width="100px"/>
       <p style="width: 110px; text-align: center; font-size: 12px; font-weight: bold">Lucas Meira 🎖️</p>
    </a>
    <a href="https://www.linkedin.com/in/gspetillo/" style="margin: 10px;">
-      <img src="https://avatars.githubusercontent.com/u/47800050?v=4" alt="Luis Felipe 🎖️" width="100px"/>
+      <img src="https://icon-library.com/images/default-user-icon/default-user-icon-4.jpg" alt="Gabriel Petillo" width="100px"/>
       <p style="width: 110px; text-align: center; font-size: 12px; font-weight: bold">Luis Felipe 🎖️</p>
    </a>
 </div>
