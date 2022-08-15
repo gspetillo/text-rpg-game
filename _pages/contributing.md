@@ -8,14 +8,14 @@ e-mail, ou qualquer outro método com os proprietários deste repositório antes
 
 Por favor, note que temos um código de conduta, por favor, siga-o em todas as suas interações com o projeto.
 
-## Processo de Pedido de Puxada
+## 👨🏻‍💻 Processo de Solicitação de "Git Push"
 
 1. Assegurar que quaisquer dependências de instalação ou build sejam removidas antes do final da camada ao fazer um build.
 2. Atualizar o README.md com detalhes de mudanças na interface, isto inclui novas variáveis de ambiente, portas expostas, localização de arquivos úteis e parâmetros de contêineres.
 3. Aumente os números de versão em quaisquer arquivos de exemplos e o README.md para a nova versão que esta Pull Request representaria. O esquema de versões que usamos é [SemVer](http://semver.org/).
 4. Você pode fazer merge da Pull Request assim que tiver o de acordo de dois outros desenvolvedores, ou se, você não tiver permissão para fazer isso, você pode solicitar ao segundo revisor que o faça para você.
 
-## Código de Conduta
+## 🧾 Código de Conduta
 
 ### Nosso Compromisso
 
