@@ -1,4 +1,7 @@
-# Contribuindo
+---
+permalink: /contributing/
+title: "Contribuição"
+---
 
 Ao contribuir para este repositório, discuta primeiro a mudança que você deseja fazer via questão,
 e-mail, ou qualquer outro método com os proprietários deste repositório antes de fazer uma mudança.
