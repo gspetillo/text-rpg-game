@@ -1,9 +1,7 @@
 ---
 permalink: /architecture/
-title: "Architecture"
+title: "Arquitetura"
 ---
-
-# Documento de arquitetura
 
 O projeto Reino do Pato Guerreiro será uma single page application (SPA), que deverá ser executada por um navegador web. Para a entrega de um MVP, a página referente à primeira versão do projeto dependerá apenas de recursos locais do dispositivo que a executa. Dessa forma, a necessidade de infraestrutura web por parte da equipe responsável pelo projeto se limita à entrega da página pelo protocolo HTTP, para que esta seja então executada localmente.
 

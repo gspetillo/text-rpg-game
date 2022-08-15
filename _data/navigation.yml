@@ -3,3 +3,5 @@ main:
     url: /scope/
   - title: "Architecture"
     url: /architecture/
+  - title: "Contributing"
+    url: /contributing/
